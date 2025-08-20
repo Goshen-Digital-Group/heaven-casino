@@ -101,27 +101,27 @@ export const TOKEN_METADATA: TokenMetaWithMinted[] = [
   },
   {
     mint: FAKE_TOKEN_MINT,
-    name: 'Heavenly Coin',
-    symbol: 'HVNLY',
+    name: 'TEST',
+    symbol: 'TEST',
     image: '/fakemoney.png',
     baseWager: 1e9,
     decimals: 9,
     usdPrice: 1,
-    minted: false, // Set to true when HVNLY is actually minted
   },
 ]
 
 /** HTML to display to user that they need to accept in order to continue */
 export const TOS_HTML = `
-  <p><b>1. Age Requirement:</b> Must be at least 18 years old.</p>
-  <p><b>2. Legal Compliance:</b> Follow local laws responsibly.</p>
-  <p><b>3. Risk Acknowledgement:</b> Games involve risk; no guaranteed winnings.</p>
-  <p><b>4. No Warranty:</b> Games provided "as is"; operate randomly.</p>
-  <p><b>5. Limitation of Liability:</b> We're not liable for damages.</p>
-  <p><b>6. Licensing Disclaimer:</b> Not a licensed casino; for simulation only.</p>
-  <p><b>7. Fair Play:</b> Games are conducted fairly and transparently.</p>
-  <p><b>8. Data Privacy:</b> Your privacy is important to us.</p>
-  <p><b>9. Responsible Gaming:</b> Play responsibly; seek help if needed.</p>
+  <p><b>1. Thou shalt be 18 years or older to enter.</b></p>
+  <p><b>2. Thou shalt obey the laws of thy land.</b></p>
+  <p><b>3. Thou shalt acknowledge the risks; fortune is never guaranteed.</b></p>
+  <p><b>4. Thou shalt accept games as they are, with randomness divine.</b></p>
+  <p><b>5. Thou shalt not hold us liable for losses or damages.</b></p>
+  <p><b>6. Thou shalt know this is not a licensed casino, but a simulation for entertainment.</b></p>
+  <p><b>7. Thou shalt play fairly and honor transparency.</b></p>
+  <p><b>8. Thou shalt respect thy privacy and data.</b></p>
+  <p><b>9. Thou shalt play responsibly and seek help if needed.</b></p>
+  <p><b>10. Thou shalt enjoy the games in the spirit of fun and community.</b></p>
 `
 
 /**
@@ -232,7 +232,7 @@ export const SIDEBAR_LINKS = [
 // Footer links shown on the website footer with URLs and display titles.
 export const FOOTER_LINKS = [
   {
-    href: 'https://github.com/GoshenDigitalGroup/heavenly-casino',
+    href: 'https://github.com/Goshen-Digital-Group/heavenly-casino',
     title: 'GitHub',
   },
   {
